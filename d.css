@@ -186,11 +186,14 @@ textarea:focus {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
   background-color: rgba(255, 255, 255, 0);
   flex-wrap: wrap;
   margin-bottom: 0;
 }
 .link-1{
+
   height: 50px;
   width: 350px;
   padding-top: 20px;
@@ -198,20 +201,20 @@ textarea:focus {
   padding-right: 4px;
   padding-left: 4px;
   text-align: center;
-  background-color: #f12522;
+  background-color:rgb(100, 95, 95);
   font-size: 24px;
   font-weight: 600;
   font-family: sans-serif;
-  margin: 20px;
+  margin: 30px;
   border-radius: 25px;
 }
 .link-2{
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 .link-1:hover {
   background-color: white;
   transform: scale(1.05);
   font-weight: 600;
-  box-shadow: 2px 2px 2px 2px red;
+  box-shadow: 2px 2px 2px 2px rgb(41, 36, 36);
 }
