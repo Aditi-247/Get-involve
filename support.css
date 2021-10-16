@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.image {
+  background-color: red;
+  height: 300px;
+  padding: 2px;
+}
+#img {
+  width: 100%;
+  height: 100%;
+}
+.heading_c {
+  margin: 4%;
+  color: crimson;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.hd_h1 {
+  font-weight: 400;
+  margin: 4%;
+}
+.para-1 {
+  margin: 6px 8px;
+  color: black;
+  text-align: center;
+  font-weight: 100;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.heading-1 {
+  margin-bottom: 5%;
+  color: white;
+  text-align: center;
+}
+.left{
+  padding: 20px;
+  margin-top: 2px;
+  padding-top: 7px;
+  background-color: rgb(144, 150, 144);
+  width: 500px;
+  height:auto;
+  line-height: 1;
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-radius: 30px 10px;
+}
+
+.right {
+  background-color: rgb(124, 128, 124);
+  width: 600px;
+  height: 500px;
+  border-radius: 50px;
+  
+}
+
+.right:hover {
+  box-shadow: 0px 5px 2px 2px rgb(53, 3, 3);
+}
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.btn {
+  margin-top: 35px;
+  margin-left: 140px;
+  font-size: 17px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 20px;
+  width: 250px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  color: red;
+  border-radius: 40px 20px;
+}
+.btn:hover {
+  background-color:black;
+  /* transform: scale(1.05); */
+  color: white;
+  font-weight: 400;
+  box-shadow: 2px 3px 4px 3px white;
+}
+.content:hover {
+  transform: scale(1.02);
+}
+
+.link-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
+  background-color: rgba(255, 255, 255, 0);
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+.link-1{
+
+  height: 50px;
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  padding-left: 4px;
+  text-align: center;
+  background-color:rgb(100, 95, 95);
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 30px;
+  border-radius: 25px;
+}
+.link-2{
+	color: black;
+	text-decoration: none;
+}
+.link-1:hover {
+  background-color: white;
+  transform: scale(1.05);
+  font-weight: 600;
+  box-shadow: 2px 2px 2px 2px rgb(41, 36, 36);
+}

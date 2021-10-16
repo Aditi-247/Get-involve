@@ -1,0 +1,160 @@
+h1 {
+  font-family: "Poppins", sans-serif, "arial";
+  font: size 20px;
+  font-weight: 400;
+  color: #061f69;
+}
+h4 {
+  font-family: "Roboto", sans-serif, "arial";
+  font-size: 15px;
+  font-weight: 400;
+  color: #071a53;
+}
+.back {
+  background-size: cover;
+  -webkit-background-size:cover ;
+  opacity:.5;
+    
+}
+#blogs {
+  /* flex-basis: 28%; */
+  padding: 20px;
+  text-transform: uppercase;
+  align-items: center;
+  width: 800px;
+  /* margin-bottom: 30px; */
+  /* margin-left: 30%; */
+  margin: auto;
+  margin-top: 2%;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background: whitesmoke;
+  opacity: 0.9;
+  box-shadow: 0 10px 20px 3px #da1a3314;
+  cursor: pointer;
+  text-align: center;
+  border:10px inset red;
+  /* transition: transform 0.5s; */
+}
+
+
+@media screen and (max-width:600px) {
+	#blogs{
+		width: 100%;
+	}
+}
+/* #blogs:hover {
+  transform: translate(-5px);
+} */
+.top-text {
+  padding: 10px;
+  border-radius: 50px;
+  width: 70%;
+  text-align: center;
+  margin-left: 15%;
+  border: 1px solid rgb(36, 27, 12);
+}
+hr {
+  background: rgb(163, 53, 53);
+  height: 2px;
+  margin: 15px auto;
+  width: 60%;
+}
+.input_title{
+    background-color: #fafafc;
+    color: #2d2d2d;
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    flex-direction: column;
+    align-items: start
+}
+textarea {
+    resize: none;
+    position:relative;
+    width: 100%;
+ }
+
+.last-bar{
+    text-align: left;
+    
+    width: 40/px;
+    font-size: 20px;
+    grid-auto-columns: 2px;
+    line-height: 10px;
+    
+    border-radius: 7px;
+    
+}
+.last-bar .fa{
+  transition: transform 0.6s;
+}
+.last-bar .fa:hover{
+  transform: translateY(-11px);
+}
+
+
+.input_title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+} 
+.fa{
+  color: red;
+}
+
+.myButton {
+  margin-top: 2%;
+  background-color: #ffcc99;
+  border-radius: 20px;
+  border: 1px solid white;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 3%;
+  width: 30%;
+  text-align: center;
+} 
+.myButton:hover {
+  background-color: red;
+  color: white;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-family: "Poppins", sans-serif, "arial";
+    font-size: 1.5rem;
+    color: #6280dd;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif, "arial";
+    font-size: 1rem;
+    color: #6280dd;
+  }
+
+  .input_container {
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: rgb(255, 255, 255);
+  }
+  .input_content1 {
+    width: 67vw;
+  }
+  .input_title1 {
+    width: 67vw;
+  }
+}
+
+#footer {
+  width: 100%;
+  height: inherit;
+}
