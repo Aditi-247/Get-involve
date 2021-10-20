@@ -159,7 +159,7 @@
   border-bottom-left-radius: 40px;
 }
 .symbol:hover {
-   transform: scale(1.03);
+  transform: scale(1.03);
   color: black;
   background-color: #FFFFCC;
   border-top-right-radius:0px;
