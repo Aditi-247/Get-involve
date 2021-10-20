@@ -159,14 +159,13 @@
   border-bottom-left-radius: 40px;
 }
 .symbol:hover {
-  /* transform: scaleX(1.03);
-   */
-   background-color: black;
-   color:white;
-   border-top-right-radius:0px;
-   border-bottom-left-radius: 0px;
-   border-top-left-radius:40px;
-   border-bottom-right-radius: 40px;
+   transform: scale(1.03);
+  background-color: #FFFFCC;
+  border-top-right-radius:0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius:40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 2px 2px 2px 1px red inset;
 }
 .fas {
   font-size: 50px;
