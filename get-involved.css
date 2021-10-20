@@ -160,7 +160,7 @@
 }
 .symbol:hover {
   transform: scale(1.03);
-  color: black;
+  color: red;
   background-color: #FFFFCC;
   border-top-right-radius:0px;
   border-bottom-left-radius: 0px;
