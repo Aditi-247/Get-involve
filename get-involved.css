@@ -145,7 +145,7 @@
 }
 .symbol {
   min-width: 250px;
-  max-width: 250px;
+/*   max-width: 250px; */
   height:600px;
   /* margin-right: 0.5%;
   margin-left: 0.5%; */
